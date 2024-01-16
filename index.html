@@ -3,23 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Poject To do List</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="scrips.js"></script>
   </head>
   <body>
     <div class="container">
       <h2>To Do list</h2>
       <p>Double-click an item to mark it complete</p>
-      <form action="">
-        <input type="text" />
-        <button id="btnadd" class="btnaddclass">Add</button>
+
+      <form name="">
+        <input type="text" id="textisi" />
+        <button id="btnadd" class="btnclass">Add</button>
       </form>
       <br />
-      <ol></ol>
+      <ol id="hasil-list"></ol>
       <div id="action">
-        <button id="" class="btn-clear-class" onclick="">Clear Complete</button>
-        <button id="" class="btn-empty-class" onclick="">Empty List</button>
-        <button id="" class="btn-save-class" onclick="">Save List</button>
+        <button id="btnclear" class="btnclass" onclick="">
+          Clear Complete
+        </button>
+        <button id="btnempty" class="btnclass" onclick="">Empty List</button>
+        <button id="btnsave" class="btnclass" onclick="">Save List</button>
       </div>
     </div>
   </body>

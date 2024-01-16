@@ -1,0 +1,93 @@
+body {
+  background-color: cornflowerblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+  padding: 30px;
+}
+
+.container h2 {
+  margin: 0;
+}
+
+.container p {
+  margin: 5px 0;
+  font-style: italic;
+}
+
+.container ol {
+  margin: 20px 0;
+}
+
+.container ol li {
+  margin: 5px 0;
+  padding: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.container ol li:nth-child(even) {
+  background: #ddd;
+}
+
+.container .completed {
+  text-decoration: line-through;
+  color: #666;
+}
+
+.container .btnclass {
+  margin: 10px 2px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #0093d5;
+  border: none;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  font-size: small;
+}
+
+.container .btnaddclass:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.container input {
+  padding: 5px 5px;
+  padding-right: 200px;
+}
+
+.container form {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    width: 50%;
+  }
+
+  .container input {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+  .container {
+    width: 75%;
+  }
+
+  .container input {
+    width: 400px;
+  }
+}

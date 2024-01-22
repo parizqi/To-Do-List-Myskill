@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Poject To do List</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="scrips.js"></script>
+    
   </head>
   <body>
     <div class="container">
@@ -14,17 +14,18 @@
 
       <form name="">
         <input type="text" id="textisi" />
-        <button id="btnadd" class="btnclass">Add</button>
       </form>
+      <button id="btnadd" class="btnclass">Add</button>
       <br />
       <ol id="hasil-list"></ol>
       <div id="action">
-        <button id="btnclear" class="btnclass" onclick="">
+        <button id="btnclear" class="btnclass" onclick="clearCompleted()">
           Clear Complete
         </button>
-        <button id="btnempty" class="btnclass" onclick="">Empty List</button>
-        <button id="btnsave" class="btnclass" onclick="">Save List</button>
+        <button id="btnempty" class="btnclass" onclick="emptyList()">Empty List</button>
+        <button id="btnsave" class="btnclass" onclick="saveList()">Save List</button>
       </div>
     </div>
+    <script src="scrips.js"></script>
   </body>
 </html>
